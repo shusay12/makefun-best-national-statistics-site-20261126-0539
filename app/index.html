@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StatAtlas — National statistics, in plain sight</title>
+<meta name="description" content="StatAtlas: population, GDP, life expectancy and more for eight countries, every figure with its source and year. Works offline, on desktop and phone.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="#/"><span class="brand-mark">▦</span> StatAtlas</a>
+  <nav aria-label="Main">
+    <a data-route="home" href="#/">Dashboard</a>
+    <a data-route="compare" href="#/compare">Compare</a>
+    <a data-route="indicators" href="#/indicators">Indicators</a>
+    <a data-route="about" href="#/about">Sources</a>
+  </nav>
+</header>
+<main id="view"></main>
+<footer class="site-foot">
+  <p>StatAtlas — an original statistics site. Figures: World Bank, World Development
+  Indicators 2024 (life expectancy 2023); population and median age: UN World Population
+  Prospects 2024. Rounded to the precision shown; see <a href="#/about">Sources</a> for method.</p>
+  <p>Built November 2026. No network requests, no tracking, no account.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
